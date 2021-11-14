@@ -6,14 +6,10 @@ This plugin help you to detect current web renderer.
 
 This plugin provide very basic api to recognize current web renderer. This is all api for you to use:
 ```dart
-enum CurrentRenderer { html, canvasKit, other }
+bool _isHtmlRenderer = isHtmlRenderer;
+bool _isCanvasKitRenderer = isCanvasKitRenderer;
+bool _isOtherRenderer = isOtherRenderer;
 
-bool get isHtmlRenderer => getCanvasKitRenderer == false;
-bool get isCanvasKitRenderer => getCanvasKitRenderer == true;
-bool get isOtherRenderer => getCanvasKitRenderer == null;
-CurrentRenderer get getCurrentRenderer => isHtmlRenderer
-    ? CurrentRenderer.html
-    : isCanvasKitRenderer
-        ? CurrentRenderer.canvasKit
-        : CurrentRenderer.other;
+// return CurrentRenderer.html, CurrentRenderer.canvasKit, CurrentRenderer.other
+CurrentRenderer _currentRenderer = getCurrentRenderer; 
 ```
