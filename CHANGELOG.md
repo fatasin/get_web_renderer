@@ -1,3 +1,6 @@
+## 0.0.1+3
+
+* Change flutter version
 ## 0.0.1+2
 
 * Format code.
