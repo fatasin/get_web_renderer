@@ -1,10 +1,10 @@
-# get_web_renderer
+# Get Web Renderer
 
-This plugin help you to detect current web renderer.
+This package help you to detect current web renderer.
 
-## Getting Started
+## How to use
 
-This plugin provide very basic apis to recognize current web renderer.
+This package provide very basic apis to recognize current web renderer.
 
 You just need to add `get_web_renderer: ^any` to your `pubspec.yaml` and this is all apis for you to use:
 
