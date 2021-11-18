@@ -1,12 +1,6 @@
-## 0.0.1+3
+## 0.0.1+4
 
-* Change flutter version
-## 0.0.1+2
-
-* Format code.
-## 0.0.1+1
-
-* Cleanup.
+* Cleanup
 ## 0.0.1
 
 * Initial relase for this plugin.
