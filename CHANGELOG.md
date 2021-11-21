@@ -1,3 +1,9 @@
+## 1.0.0
+
+* Clean flutter dependencies to support dart native
+* Bring to stable version
+* Cleanup
+
 ## 0.0.1+5
 
 * Add details to description

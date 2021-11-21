@@ -13,7 +13,7 @@ bool get isCanvasKitRenderer => getCanvasKitRenderer == true;
 /// Return true if current renderer is not web platform
 bool get isOtherRenderer => getCanvasKitRenderer == null;
 
-/// Return enum value
+/// Return current renderer as an enum
 CurrentRenderer get getCurrentRenderer => isHtmlRenderer
     ? CurrentRenderer.html
     : isCanvasKitRenderer
