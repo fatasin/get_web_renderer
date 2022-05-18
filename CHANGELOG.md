@@ -1,3 +1,7 @@
+## 1.1.0
+
+* All global variables are now moved to `WebRenderer` static class and marked as deprecated.
+
 ## 1.0.0+1
 
 * Update homepage

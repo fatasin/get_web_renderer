@@ -10,14 +10,14 @@ You just need to add `get_web_renderer: ^any` to your `pubspec.yaml` and this is
 
 ```dart
 /// Return true if current renderer is HTML
-bool _isHtmlRenderer = isHtmlRenderer;
+bool _isHtmlRenderer = WebRenderer.isHtmlRenderer;
 
 /// Return true if current renderer is CanvasKit
-bool _isCanvasKitRenderer = isCanvasKitRenderer;
+bool _isCanvasKitRenderer = WebRenderer.isCanvasKitRenderer;
 
 /// Return true if current renderer is not the web platform
-bool _isOtherRenderer = isOtherRenderer;
+bool _isOtherRenderer = WebRenderer.isOtherRenderer;
 
 // return CurrentRenderer.html, CurrentRenderer.canvasKit, CurrentRenderer.other
-CurrentRenderer _currentRenderer = getCurrentRenderer; 
+CurrentRenderer _currentRenderer = WebRenderer.getCurrentRenderer; 
 ```
