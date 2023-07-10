@@ -1,3 +1,7 @@
+## 1.2.0
+
+* Change sdk version to ">=2.12.0 <4.0.0".
+
 ## 1.1.0
 
 * All global variables are now moved to `WebRenderer` static class and marked as deprecated.
